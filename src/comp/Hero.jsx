@@ -18,17 +18,20 @@ const Hero = () => {
 
   return (
     <div
-      style={{ backgroundColor: '#fd8368' }}
+      style={{ backgroundColor: '#fd8368'}}
       className="hero-section flex items-center justify-between h-screen overflow-hidden relative"
       onMouseMove={handleMouseMove}
     >
       <div className="h-full flex flex-col justify-between p-16 font-poppins font-light w-[40%]">
         <div>
-          <h1 className="text-7xl text-white uppercase leading-tight">Emma Rose Photography</h1>
-          <p className="text-2xl text-white mt-4">Visual stories, creative intent</p>
-          <div className="mt-4 w-24 border-t-2 border-white"></div>
+          <h1 className="text-7xl text-white uppercase leading-tight" data-aos="fade-right" data-aos-delay="200">Emma Rose Photography</h1>
+          <p className="text-2xl text-white mt-4" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Visual stories, creative intent</p>
+          <div className="mt-4 w-24 border-t-2 border-white" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200"></div>
         </div>
-        <div className="mt-8 text-white text-lg">
+        <div className="mt-8 text-white text-lg" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0">
           <p className="mb-2">Keep scrolling to see some of my favorite projects! Or, <a href="#" className="underline">get in touch</a> so we can create a new one!</p>
           <p className="opacity-75">309ATL | ERPHOTOGRAPHY</p>
         </div>
