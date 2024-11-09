@@ -11,9 +11,9 @@ const Hero = () => {
     const { width, height } = heroSection.getBoundingClientRect();
     const x = e.clientX - width / 2;
     const y = e.clientY - height / 2;
-
-    girlImage.style.transform = `translate(${-x * 0.05}px, ${-y * 0.05}px)`;
-    cloudImage.style.transform = `translate(${x * 0.04}px, ${y * 0.04}px)`;
+   
+    girlImage.style.transform = `translate(${-x * 0.07}px, ${-y * 0.07}px)`;
+    cloudImage.style.transform = `translate(${x * 0.07}px, ${y * 0.07}px)`;
   };
 
   return (
